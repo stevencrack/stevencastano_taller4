@@ -4,7 +4,7 @@ All:
 	make punto3
 
 punto3:
-	gcc 3_Fourier.c -o fourier -lm 
+	c++ 3_Fourier.cpp -o fourier
 	./fourier datos.txt
 	rm fourier
 
